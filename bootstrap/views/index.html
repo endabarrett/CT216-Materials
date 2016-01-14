@@ -1,0 +1,142 @@
+<style>
+    .show-grid [class^="col-"]     
+{
+    background-color: rgba(86, 61, 124, 0.15);
+    border: 1px solid rgba(86, 61, 124, 0.2);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}    
+</style>
+<div class="" data-ng-controller="BootstrapController">
+
+<div class="container">
+    <h1>Split 50/50</h1>
+    <div class="row show-grid">
+            <div class="col-sm-6">Second</div>
+            <div class="col-sm-6">Third</div>
+    </div>
+</div>
+<div class="stlye">
+    <h1>Hello</h1>
+</div>
+<!--
+    <div class="container">
+        <h1>Split 50/50</h1>
+        <div class="row show-grid">
+            <div class="col-lg-6">First</div>
+            <div class="col-lg-6">Second</div>
+        </div>
+    </div>
+-->
+<!--
+<div class="container-fluid">
+    <h1>1 : Stacked to Horizontal </h1>    
+<div class="row show-grid">  
+<div class="col-xs-1 col-md-1">.col-md-1</div>
+<div class="col-xs-1 col-md-1">.col-md-1</div>
+<div class="col-xs-1 col-md-1">.col-md-1</div>
+<div class="col-xs-1 col-md-1">.col-md-1</div>
+<div class="col-xs-1 col-md-1">.col-md-1</div>
+<div class="col-xs-1 col-md-1">.col-md-1</div>
+<div class="col-xs-1 col-md-1">.col-md-1</div>
+<div class="col-xs-1 col-md-1">.col-md-1</div>
+<div class="col-xs-1 col-md-1">.col-md-1</div>
+<div class="col-xs-1 col-md-1">.col-md-1</div>
+<div class="col-xs-1 col-md-1">.col-md-1</div>
+<div class="col-xs-1 col-md-1">.col-md-1</div>  
+</div>
+
+<div class="row show-grid">
+  <div class="col-md-8">.col-md-8</div>
+  <div class="col-md-4">.col-md-4</div>
+</div>
+<div class="row show-grid">
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4">.col-md-4</div>
+</div>
+<div class="row show-grid">
+  <div class="col-md-6">.col-md-6</div>
+  <div class="col-md-6">.col-md-6</div>
+</div>
+</div>
+
+<!--
+   <div class="container-fluid">
+    <h1>2 : Fluid for mobile </h1>    
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+
+<!--
+<div class="row show-grid">
+  <div class="col-xs-1">.col-xs-1</div>
+    <div class="col-xs-1">.col-xs-1</div>
+    <div class="col-xs-1">.col-xs-1</div>
+    <div class="col-xs-1">.col-xs-1</div>
+    <div class="col-xs-1">.col-xs-1</div>
+    <div class="col-xs-1">.col-xs-1</div>
+    <div class="col-xs-1">.col-xs-1</div>
+    <div class="col-xs-1">.col-xs-1</div>
+    <div class="col-xs-1">.col-xs-1</div>
+    <div class="col-xs-1">.col-xs-1</div>
+    <div class="col-xs-1">.col-xs-1</div>
+    <div class="col-xs-1">.col-xs-1</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+</div>
+-->
+<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+<!--
+ <div class="row show-grid ">
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+</div>
+-->
+<!-- Columns are always 50% wide, on mobile and desktop -->
+<!--
+<div class="row show-grid ">
+  <div class="col-xs-6">.col-xs-6</div>
+  <div class="col-xs-6">.col-xs-6</div>
+</div>
+</div>
+-->
+
+<div class="container">   
+    <div class="row">
+        </br>
+    <button type="button" class="btn btn-default" ng-click="isCollapsed = !isCollapsed">Toggle collapse</button>
+	<hr>
+	<div uib-collapse="isCollapsed">
+		<div class="well well-lg">Some content</div>
+	</div>
+    </div>
+</div>
+   
+<div class="container">
+    <div class="row">
+        </br>
+    </div>
+ <div class="row">
+  <div class="jumbotron">
+    <h1>Bootstrap Tutorial</h1> 
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+    responsive, mobile-first projects on the web.</p> 
+  </div>
+ </div>
+
+ <div class="row ">
+     </br>
+<a href="#">News <span class="badge">2</span></a><br>
+<a href="#">Comments <span class="badge">15</span></a><br>
+<a href="#">Updates <span class="badge">2</span></a><br>
+</div>
+
+<!--
+<button ng-click="count = count + 1" ng-init="count=0">
+  Increment
+</button>
+<span>
+  count: {{count}}
+</span>
+</div>
+-->
+</div>
