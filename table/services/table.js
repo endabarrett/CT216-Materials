@@ -1,9 +1,9 @@
 'use strict';
 
-angular.module('mean.basic').factory('Basic', [ '$http',
+angular.module('mean.table').factory('Table', [ '$http',
   function($http) {
     return {
-      name: 'basic',    
+      name: 'table',    
       parseData : function(url){
           var data = $http.get(url); 		  
           return data;
